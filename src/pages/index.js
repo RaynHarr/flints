@@ -37,7 +37,7 @@ const IndexPage = () => (
         <Link to="/page-2/">Watch the video NOW</Link>
         <div className="Logos">
           <img src={require('../images/please.png')} width="100" />
-          <img src={require('../images/flint.jpg')} width="100" />
+          <img src={require('../images/Flint.jpg')} width="100" />
         </div>
         <Wave />
       </div>
