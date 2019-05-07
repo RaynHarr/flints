@@ -34,7 +34,7 @@ class Header extends React.Component {
       'Header HeaderScrolled' : 'Header'}>
         <div className="HeaderGroup">
           <Link to="/"><img src={require('../images/please.png')} width="30" /></Link>
-          <Link to="/courses">Courses</Link>
+          <Link to="/courses">Bananas</Link>
           <Link to="/downloads">Downloads</Link>
           <Link to="/workshops">Workshops</Link>
           <Link to="/buy"><button>Buy</button></Link>
