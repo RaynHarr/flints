@@ -39,6 +39,7 @@ const IndexPage = () => (
           <img src={require('../images/please.png')} width="100" />
           <img src={require('../images/Flint.jpg')} width="100" />
         </div>
+
         <Wave />
       </div>
     </div>
