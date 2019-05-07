@@ -1,10 +1,10 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import Card from '../components/card';
-import Section from '../components/Section';
-import Wave from '../components/Wave';
+import Card from '../components/card'
+import Section from '../components/Section'
+import Wave from '../components/Wave'
 import staticdata from '../../staticdata.json'
-import Cell from '../components/Cell';
+import Cell from '../components/Cell'
 import styled from 'styled-components'
 
 const SectionCaption = styled.p`
@@ -32,57 +32,57 @@ const IndexPage = () => (
   <div>
     <div className="Hero">
       <div className="HeroGroup">
-        <h1></h1>
+        <h1 />
         <p>GARAGEBAND PUNK</p>
         <Link to="/page-2/">Watch the video NOW</Link>
         <div className="Logos">
-        <img src={require('../images/please.png')} width="100"/>
-        <img src={require('../images/flint.jpg')} width="100" /> 
-    </div>
+          <img src={require('../images/please.png')} width="100" />
+          <img src={require('../images/flint.jpg')} width="100" />
+        </div>
         <Wave />
-      </div> 
+      </div>
     </div>
     <div className="Cards">
       <h2>Garage to Face</h2>
       <div className="CardGroup">
-        <Card 
+        <Card
           title="Merch"
           text="She was"
-          image={require('../images/please.png')}/>
-        <Card 
+          image={require('../images/please.png')}
+        />
+        <Card
           title="Music"
           text="a dark, white ghost"
-          image={require('../images/please.png')}/>
-        <Card 
+          image={require('../images/please.png')}
+        />
+        <Card
           title="Bio"
           text="she didn't"
-          image={require('../images/please.png')}/>
-        <Card 
+          image={require('../images/please.png')}
+        />
+        <Card
           title="Engage"
           text="happen"
-          image={require('../images/please.png')}/>
+          image={require('../images/please.png')}
+        />
       </div>
     </div>
     <Section
       image={require('../images/wallpaper2.jpg')}
       logo={require('../images/logo-react.png')}
       title="Basement Punks"
-      text={"Looking for the owner of a pink sedan? A pink sedan!....It's getting towed."}
+      text={
+        "Looking for the owner of a pink sedan? A pink sedan!....It's getting towed."
+      }
     />
 
-<SectionCaption>12 sections - 6hrs</SectionCaption>
-<SectionCellGroup>
-   {staticdata.cells.map(cell => (
-     <Cell 
-        title={cell.title}
-        image={cell.image} />
-   ))}
-   </SectionCellGroup>
-   
+    <SectionCaption>12 sections - 6hrs</SectionCaption>
+    <SectionCellGroup>
+      {staticdata.cells.map(cell => (
+        <Cell title={cell.title} image={cell.image} />
+      ))}
+    </SectionCellGroup>
   </div>
 )
 
 export default IndexPage
-
-
-
