@@ -36,8 +36,8 @@ const IndexPage = () => (
         <p>GARAGEBAND PUNK</p>
         <Link to="/page-2/">Watch the video NOW</Link>
         <div className="Logos">
-          <img src={require('../images/please.png')} width="100" />
-          <img src={require('../images/Flint.jpg')} width="100" />
+          <img src={require('../images/please-hero.png')} width="100" />
+          <img src={require('../images/flint-hero.jpg')} width="100" />
         </div>
 
         <Wave />
@@ -49,22 +49,22 @@ const IndexPage = () => (
         <Card
           title="Merch"
           text="She was"
-          image={require('../images/please.png')}
+          image={require('../images/please-hero.png')}
         />
         <Card
           title="Music"
           text="a dark, white ghost"
-          image={require('../images/please.png')}
+          image={require('../images/please-hero.png')}
         />
         <Card
           title="Bio"
           text="she didn't"
-          image={require('../images/please.png')}
+          image={require('../images/please-hero.png')}
         />
         <Card
           title="Engage"
           text="happen"
-          image={require('../images/please.png')}
+          image={require('../images/please-hero.png')}
         />
       </div>
     </div>
