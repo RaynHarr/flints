@@ -18,7 +18,7 @@ const Layout = ({ children, data }) => (
     <Header />
       {children()}
       <Footer data={data}>
-      Backgrounds made fresh in Cinema 4d, iOsapp in Swift, site in React <a href="mailto:ryanmack@gmail.com">Email us</a> to ask us anything.
+      Backgrounds made fresh in Cinema 4d, iOsapp in Swift, site in React <a href="mailto:ryanmack.hill@gmail.com">Email us</a> to ask us anything.
       </Footer>
   </div>
 )
